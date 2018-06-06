@@ -9,16 +9,17 @@ namespace Constructors
     public class Teacher     // every teacher has a grade and a student as properties
     {
 
-        public int grade { get; set; }
+        public int Grade { get; set; }   // Grade is a property of teacher
 
-        public string student { get; set; }    
+        public string Student { get; set; }   // Student is a property of teacher
 
-        public Teacher()
+
+        public Teacher()     //We set this constructor and gave it values
         {
 
-            grade = 10;
+            Grade = 10;
 
-            student = "Ater";
+            Student = "Ater";
         }
 
     }

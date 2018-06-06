@@ -10,10 +10,11 @@ namespace Constructors
     {
         static void Main(string[] args)
         {
-            Teacher test = new Teacher();
+            Teacher test = new Teacher();   // instantiate new teacher object
 
-            Console.WriteLine($"The grade that I teach is {test.grade}");
-            Console.WriteLine($"My student's name is {test.student}");
+            //Teacher object has 2 properties grade and student
+            Console.WriteLine($"The grade that I teach is {test.Grade}");
+            Console.WriteLine($"My student's name is {test.Student}");
         }
     }
 }
